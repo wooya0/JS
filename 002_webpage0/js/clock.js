@@ -8,7 +8,7 @@ function getClock() {
 }
 
 getClock(); //함수 호출
-setInterval(getClock, 1000); //setTimeout(func|code, [delay]) => 일정 시간 간격을 두고 함수를 실행
+setInterval(getClock, 1000); //setTimeout(func|code, [delay]) => 일정 시간 간격을 두고 함수를 실행;
 
 const insert_h1 = document.querySelector("h1");
 document.body.insertBefore(h2, insert_h1);
